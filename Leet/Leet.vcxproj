@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,7 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,33 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="q1.cpp" />
-    <ClCompile Include="q1017.cpp" />
-    <ClCompile Include="q1052.cpp" />
-    <ClCompile Include="q1146.cpp" />
-    <ClCompile Include="q1235.cpp" />
-    <ClCompile Include="q1329.cpp" />
-    <ClCompile Include="q1463.cpp" />
-    <ClCompile Include="q1491.cpp" />
-    <ClCompile Include="q1553.cpp" />
-    <ClCompile Include="q1652.cpp" />
-    <ClCompile Include="q2.cpp" />
-    <ClCompile Include="q2079.cpp" />
-    <ClCompile Include="q2105.cpp" />
-    <ClCompile Include="q2244.cpp" />
-    <ClCompile Include="q2385.cpp" />
-    <ClCompile Include="q2391.cpp" />
-    <ClCompile Include="q2462.cpp" />
+    <ClCompile Include="q1953.cpp" />
+    <ClCompile Include="q2589.cpp" />
     <ClCompile Include="q2639.cpp" />
     <ClCompile Include="q2739.cpp" />
     <ClCompile Include="q2798.cpp" />
     <ClCompile Include="q2960.cpp" />
-    <ClCompile Include="q3.cpp" />
-    <ClCompile Include="q377.cpp" />
-    <ClCompile Include="q741.cpp" />
-    <ClCompile Include="q857.cpp" />
-    <ClCompile Include="q9.cpp" />
-    <ClCompile Include="q994.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

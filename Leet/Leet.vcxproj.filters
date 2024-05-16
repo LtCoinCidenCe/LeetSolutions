@@ -18,40 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="q1017.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1329.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="q2798.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q2462.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q857.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1491.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q377.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1052.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1146.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="q2639.cpp">
@@ -60,43 +27,13 @@
     <ClCompile Include="q2739.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="q9.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1235.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1652.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q741.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1463.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q2079.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q2105.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="q2960.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="q2391.cpp">
+    <ClCompile Include="q2589.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="q2385.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q1553.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q994.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="q2244.cpp">
+    <ClCompile Include="q1953.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

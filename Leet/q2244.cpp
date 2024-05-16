@@ -48,8 +48,3 @@ public:
         return result;
     }
 };
-
-int q2244()
-{
-
-}
