@@ -36,5 +36,11 @@
     <ClCompile Include="q1953.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="q826.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q2644.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
