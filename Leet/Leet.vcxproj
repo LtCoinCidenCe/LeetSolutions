@@ -131,14 +131,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dataStructures.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="q1535.cpp" />
+    <ClCompile Include="q1542.cpp" />
     <ClCompile Include="q1953.cpp" />
+    <ClCompile Include="q2225.cpp" />
     <ClCompile Include="q2589.cpp" />
     <ClCompile Include="q2639.cpp" />
     <ClCompile Include="q2644.cpp" />
     <ClCompile Include="q2739.cpp" />
     <ClCompile Include="q2798.cpp" />
+    <ClCompile Include="q2831.cpp" />
     <ClCompile Include="q2960.cpp" />
+    <ClCompile Include="q4.cpp" />
     <ClCompile Include="q826.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -42,5 +42,23 @@
     <ClCompile Include="q2644.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="q1535.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataStructures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q1542.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q2225.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q2831.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
