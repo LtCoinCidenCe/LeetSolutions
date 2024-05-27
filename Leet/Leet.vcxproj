@@ -135,7 +135,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="q1535.cpp" />
     <ClCompile Include="q1542.cpp" />
+    <ClCompile Include="q1673.cpp" />
+    <ClCompile Include="q1738.cpp" />
     <ClCompile Include="q1953.cpp" />
+    <ClCompile Include="q2028.cpp" />
     <ClCompile Include="q2225.cpp" />
     <ClCompile Include="q2589.cpp" />
     <ClCompile Include="q2639.cpp" />
@@ -143,6 +146,7 @@
     <ClCompile Include="q2739.cpp" />
     <ClCompile Include="q2798.cpp" />
     <ClCompile Include="q2831.cpp" />
+    <ClCompile Include="q2903.cpp" />
     <ClCompile Include="q2960.cpp" />
     <ClCompile Include="q4.cpp" />
     <ClCompile Include="q826.cpp" />

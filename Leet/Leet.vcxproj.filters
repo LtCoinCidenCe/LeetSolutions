@@ -60,5 +60,17 @@
     <ClCompile Include="q2831.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="q1673.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q2903.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q1738.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="q2028.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
