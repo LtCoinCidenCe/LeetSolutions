@@ -12,19 +12,19 @@ public:
         int n = cards.size();
         ranges::sort(cards, greater());
         int score = 0;
-        bool activeHasOdd = false, activeHasEven = false,
-             reserveHasOdd = false, reserveHasEven = false;
+        // bool activeHasOdd = false, activeHasEven = false,
+        //      reserveHasOdd = false, reserveHasEven = false;
         for (int i = 0; i < cnt; i++)
         {
             int card = cards[i];
-            if ((card & 1) == 0)
-            {
-                activeHasEven = true;
-            }
-            else
-            {
-                activeHasOdd = true;
-            }
+            // if ((card & 1) == 0)
+            // {
+            //     activeHasEven = true;
+            // }
+            // else
+            // {
+            //     activeHasOdd = true;
+            // }
             score += cards[i];
         }
 
