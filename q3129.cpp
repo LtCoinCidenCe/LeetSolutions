@@ -24,6 +24,12 @@ public:
       int deduct = 0;
       if (zero > limit) {
         deduct = dfs(zero - limit - 1, one, 1);
+        // think it in a way about concatenation...
+        // shorter array can be "stable" with the 1 in the middle.
+        // when fetching the previous results dfs(zero - 1, one, 0), it contained that shorter array.
+        // but you got this k=0 "HERE ALREADY PLACED NEAR THE SOCKET".
+        // and the result taken from the shorter result combined makes a non-stable array.
+        // so it gets ruled out.
       }
       res = ((long long)(dfs(zero - 1, one, 0)) + dfs(zero - 1, one, 1) + (MOD - deduct)) % MOD;
     }
@@ -57,8 +63,8 @@ public:
 int main(int argc, char **argv)
 {
   Solution sln;
-  int zero = 3;
-  int one = 3;
+  int zero = 5;
+  int one = 1;
   int limit = 2;
   int result = sln.numberOfStableArrays(zero, one, limit);
   return 0;
