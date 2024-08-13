@@ -28,8 +28,8 @@ public:
           continue;
         }
 
-      auto right = ranges::upper_bound(traps, query[1], greater());
-      if (right != traps.end())
+      auto right = upper_bound(traps.rbegin(), traps.rend(), query[1], greater());
+      if (right != traps.rend())
         if (*right >= query[0]) {
           result[i] = false;
           continue;
