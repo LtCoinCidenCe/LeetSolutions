@@ -58,10 +58,14 @@ public:
       }
       else {
         int c = num[i] - '0';
+        int repeat = -1;
         for (int j = i == 0 ? 1 : 0; j < c; j++) {
           if (!used[j]) {
             used[j] = true;
-            sum += dfs(used, i + 1, true);
+            if (repeat == -1) {
+              repeat = dfs(used, i + 1, true);
+            }
+            sum += repeat;
             used[j] = false;
           }
         }
